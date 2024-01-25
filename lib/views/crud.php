@@ -6,12 +6,14 @@
 <div class="jk-modal" id= "modalJK">
     <div class="jk-modal-content">
         <div class="jk-mheader">
-            <h1>JKCSS Modal</h1>
+            <h1>Add New Member</h1>
         <div>
         <hr>
         <div class="jk-mbody">
-            <p>A CSS Framework<p>
-            <p>JKCSS is a one of Framework<p>
+            <form action="" method="POST">
+                <label for="username">Username : </label>
+                <input type="text" id="basicForm" name="username" class="control-jkforms">
+            </form>
         <div>
         <hr>
         <div class="jk-mfooter">
