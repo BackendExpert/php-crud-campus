@@ -6,7 +6,7 @@
     <h1 class="jk-display-4">PHP CRUD</h1>
     <hr>
     <br>
-    <a href=""><button class="jkbtn jkbtn-blue">CRUD Application</button></a>
+    <a href="lib/views/crud.php"><button class="jkbtn jkbtn-blue">CRUD Application</button></a>
 </div>
 
 <script src="js/app.min.js"></script>
