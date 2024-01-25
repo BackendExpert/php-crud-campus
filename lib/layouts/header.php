@@ -8,4 +8,3 @@
 
 </head>
 <body>
-<script src="https://jkcss-css-framework.github.io/JKCSS-Framework/js/jkcss.min.js"></script>
