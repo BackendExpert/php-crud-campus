@@ -6,7 +6,7 @@
 <div class="jk-modal" id="modalJK">
     <div class="jk-modal-content">
         <div class="jk-mheader">
-            <h1>JKCSS Modal</h1>
+            <h1>Add New User</h1>
         <div>
         <hr>
         <div class="jk-mbody">
