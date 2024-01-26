@@ -13,6 +13,21 @@
             <form action="" method="post">
                 <label for="username">Username : </label>
                 <input type="text" name="username" id="" class="control-jkforms">
+
+                <label for="username">NIC : </label>
+                <input type="text" name="nic" id="" class="control-jkforms">
+
+                <label for="username">Email : </label>
+                <input type="email" name="email" id="" class="control-jkforms">
+
+                <label for="username">Name : </label>
+                <input type="text" name="uname" id="" class="control-jkforms">
+
+                <label for="username">Mobile : </label>
+                <input type="text" name="mobile" id="" class="control-jkforms">
+
+                <label for="username">Date of Birth : </label>
+                <input type="date" name="dob" id="" class="control-jkforms">
             </form>
         <div>
         <hr>
