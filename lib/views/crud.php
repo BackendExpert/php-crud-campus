@@ -28,11 +28,13 @@
 
                 <label for="username">Date of Birth : </label>
                 <input type="date" name="dob" id="" class="control-jkforms">
-            </form>
+            
         <div>
         <hr>
         <div class="jk-mfooter">
             <button class="jkbtn jkbtn-green" id="closeModel">Close</button>
+            <input type="reset" value="Clear" class="jkbtn jkbtn-gray">
+            </form>
         <div>
     <div>
 </div>
