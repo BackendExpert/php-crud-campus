@@ -10,8 +10,10 @@
         <div>
         <hr>
         <div class="jk-mbody">
-            <p>A CSS Framework<p>
-            <p>JKCSS is a one of Framework<p>
+            <form action="" method="post">
+                <label for="username">Username : </label>
+                <input type="text" name="username" id="" class="control-jkforms">
+            </form>
         <div>
         <hr>
         <div class="jk-mfooter">
