@@ -8,11 +8,11 @@
     <div id="modalJK" class="JKmodal">
         <div class="jkm-content">
             <h1 class="jk-display-6">JKCSS Modal</h1>
-            <p>This is a modal!</p>
-            <button class="jkbtn jkbtn-blue close">Close</button>
+            
+            <button class="jkbtn jkbtn-red close">Close</button>
         </div>
     </div>
 
-    
+
 
 </div>
