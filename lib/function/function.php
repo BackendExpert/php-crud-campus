@@ -1,5 +1,10 @@
-<?php 
+<?php
+
+    use FTP\Connection;
+
     include("config.php");
 
-    function addNewUser($username, $email, $uname, $)
+    function addNewUser($username, $email, $uname, $mobile, $nic, $dob){
+        $con = Connection();
+    }
 ?>
