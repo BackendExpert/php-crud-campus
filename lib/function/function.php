@@ -34,7 +34,8 @@
             return "<div class='alertjk alertjk-red'>User already in Database..!</div>";
         }
         else{
-            $insert_user = "INSERT INTO user_tbl(username,email,u_name,mobile,nic,dob,create_at,update_at)VALUES('$username','$email','$uname','$mobile','$nic','$dob',NOW(),NOW())"
+            $insert_user = "INSERT INTO user_tbl(username,email,u_name,mobile,nic,dob,create_at,update_at)VALUES('$username','$email','$uname','$mobile','$nic','$dob',NOW(),NOW())";
+            $insert_result = mysqli_query($con, $insert_user);
         }
         
     }
