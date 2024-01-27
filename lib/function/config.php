@@ -3,6 +3,6 @@
         $server = "localhost";
         $user = "root";
         $pass = "";
-        $db = "";
+        $db = "php-crud-campus";
     }
 ?>
