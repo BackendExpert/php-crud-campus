@@ -1,24 +1,3 @@
-.jk-modal{
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-.jk-modal-content{
-    background: white;
-    margin: 50px 30%;
-    padding: 20px;
-    border-radius: 5px;
-    flex: auto;
-}
-.jk-mbody{
-    padding: 5px 10px;
-}
-hr{
-    border: 1px solid rgba(185, 185, 185, 0.616);
+.inputs-crtl{
+    margin-right: 1000px;
 }

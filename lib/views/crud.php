@@ -7,8 +7,11 @@
 
     <div id="modalJK" class="JKmodal">
         <div class="jkm-content">
-            <h1 class="jk-display-6">JKCSS Modal</h1>
-            
+            <h1 class="jk-display-6">Add New Member</h1>
+            <form action="" method="post">
+                <label for="username">Username : </label>
+                <input type="text" name="" id="" class="control-jkforms inputs-crtl">
+            </form>
             <button class="jkbtn jkbtn-red close">Close</button>
         </div>
     </div>
