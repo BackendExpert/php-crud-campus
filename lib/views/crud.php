@@ -35,9 +35,9 @@
                 <label for="birth">Date of Birth : </label>
                 <input type="date" name="dob" id="" class="control-jkforms"><br>
             
-                <button class="jkbtn jkbtn-red close">Close</button>
+
                 <input type="reset" value="Clear" class="jkbtn jkbtn-gray">
-                <input type="submit" value="Submit" name="addUser" class="jkbtn jkbtn-green">
+                <input type="submit" value="Submit" name="addUser" class="jkbtn jkbtn-green close">
             </form>
         </div>
     </div>
