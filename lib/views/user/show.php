@@ -3,5 +3,5 @@
 
 <link rel="stylesheet" href="../../../css/app.scss">
 <div class="site-container">
-    sdasd
+    <?php showUser() ?>
 </div>
