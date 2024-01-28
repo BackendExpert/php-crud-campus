@@ -28,19 +28,13 @@
         $users_nor = mysqli_num_rows($select_result);
 
         if($users_nor == 0){
-            return "
-                <thead>
-                    <tr>
-                        <td colspan='7'>
-                        User No
-                        </td>
-                    </tr>
-                </thead>
-            ";
+            $user_data = "No users";
         }
         else{
             return "yes";
         }
         
+
+        echo $user_data;
     }
 ?>
