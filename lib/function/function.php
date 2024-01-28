@@ -17,6 +17,29 @@
         else{
             $insert_user = "INSERT INTO user_tbl(username,email,u_name,mobile,nic,dob,create_at,update_at)VALUES('$username','$email','$uname','$mobile','$nic','$dob',NOW(),NOW())";
             $insert_result = mysqli_query($con, $insert_user);
+        }        
+    }
+
+    function viewUsers(){
+        $con = Connection();
+
+        $select_users = "SELECT * FROM user_tbl";
+        $select_result = mysqli_query($con, $select_users);
+        $users_nor = mysqli_num_rows($select_result);
+
+        if($users_nor == 0){
+            return "
+                <thead>
+                    <tr>
+                        <td colspan='7'>
+                        User No
+                        </td>
+                    </tr>
+                </thead>
+            ";
+        }
+        else{
+            return "yes";
         }
         
     }
