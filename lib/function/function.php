@@ -42,14 +42,19 @@
                         <td>".$row['nic']."</td>
                         <td>".$row['dob']."</td>
                         <td>
-                            <a href=''><button class='jkbtn-sm jkbtn-green'>Edit</button></a>
-                            <a href=''><button class='jkbtn-sm jkbtn-info'>Edit</button></a>
+                            <a href='show.php?id=".$row['id']."'><button class='jkbtn-sm jkbtn-green'>Show</button></a>
+                            <a href='edit.php?id=".$row['id']."'><button class='jkbtn-sm jkbtn-info'>Edit</button></a>
                             <a href=''><button class='jkbtn-sm jkbtn-red'>Delete</button></a>
                         </td>
                     </tr>
                 ";
             }
         }
+    }
 
+    function showUser(){
+        $con = Connection();
+
+        
     }
 ?>
