@@ -42,9 +42,9 @@
                         <td>".$row['nic']."</td>
                         <td>".$row['dob']."</td>
                         <td>
-                            <a href=''><button class='jkbtn jkbtn-green'>Show</button></a>
-                            <a href=''><button class='jkbtn jkbtn-info'>Edit</button></a>
-                            <a href=''><button class='jkbtn jkbtn-red'>Delete</button></a>
+                            <a href=''><button class='jkbtn-sm jkbtn-green'>Edit</button></a>
+                            <a href=''><button class='jkbtn-sm jkbtn-info'>Edit</button></a>
+                            <a href=''><button class='jkbtn-sm jkbtn-red'>Delete</button></a>
                         </td>
                     </tr>
                 ";

@@ -1,7 +1,7 @@
-<?php include("../layouts/header.php"); ?>
-<?php include("../function/function.php"); ?>
+<?php include("../../layouts/header.php"); ?>
+<?php include("../../function/function.php"); ?>
 
-<link rel="stylesheet" href="../../css/app.scss">
+<link rel="stylesheet" href="../../../css/app.scss">
 <div class="site-container">
 
     <button id="openModalJK" class="jkbtn jkbtn-blue">Open Model</button>
@@ -61,6 +61,7 @@
         </tbody>
     </table>
 
+    
 
 
 </div>
