@@ -6,8 +6,8 @@
 
     <button id="openModalJK" class="jkbtn jkbtn-blue">Open Model</button>
 
-    <div id="modalJK" class="JKmodal">
-        <div class="jkm-content data-modal">
+    <div id="modalJK" class="JKmodal data-modal">
+        <div class="jkm-content">
             <h1 class="jk-display-6">Add New Member</h1>
             <?php 
                 if(isset($_POST['addUser'])){
@@ -18,26 +18,26 @@
 
             <form action="" method="post">
                 <label for="username">Username : </label>
-                <input type="text" name="username" id="" class="control-jkforms"><br>
+                <input type="text" name="username" id="" class="control-jkforms" required><br>
 
                 <label for="email">Email : </label>
-                <input type="email" name="email" id="" class="control-jkforms"><br>
+                <input type="email" name="email" id="" class="control-jkforms" required><br>
 
                 <label for="name">Name : </label>
-                <input type="text" name="uname" id="" class="control-jkforms"><br>
+                <input type="text" name="uname" id="" class="control-jkforms" required><br>
                 
                 <label for="mobile">Mobile : </label>
-                <input type="text" name="mobile" id="" class="control-jkforms"><br>
+                <input type="text" name="mobile" id="" class="control-jkforms" required><br>
                 
                 <label for="nic">NIC : </label>
-                <input type="text" name="nic" id="" class="control-jkforms"><br>
+                <input type="text" name="nic" id="" class="control-jkforms" required><br>
 
                 <label for="birth">Date of Birth : </label>
-                <input type="date" name="dob" id="" class="control-jkforms"><br>
-            
-
+                <input type="date" name="dob" id="" class="control-jkforms" required><br>
+                
+                <button class="jkbtn jkbtn-red close">Close</button>
                 <input type="reset" value="Clear" class="jkbtn jkbtn-gray">
-                <input type="submit" value="Submit" name="addUser" class="jkbtn jkbtn-green close">
+                <input type="submit" value="Submit" name="addUser" class="jkbtn jkbtn-green">
             </form>
         </div>
     </div>
