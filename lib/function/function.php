@@ -42,10 +42,6 @@
                         <td>".$row['nic']."</td>
                         <td>".$row['dob']."</td>
                         <td>
-                            <form action='action.php' method='GET'>
-                                <input type='hidden' value='view' name='show'>
-                                <input type='submit' value='Show' name='showUser' class='jkbtn-sm jkbtn-green'>
-                            </form>
                             <a href='show.php?id=".$row['id']."'><button class='jkbtn-sm jkbtn-green'>Show</button></a>
                             <a href='edit.php?id=".$row['id']."'><button class='jkbtn-sm jkbtn-info'>Edit</button></a>
                             <a href=''><button class='jkbtn-sm jkbtn-red'>Delete</button></a>
@@ -86,6 +82,9 @@
         ";
 
         echo $view_user;
+    }
+    function Actions(){
+        
     }
 
     function  UpdateView(){
