@@ -7,7 +7,7 @@
     <button id="openModalJK" class="jkbtn jkbtn-blue">Open Model</button>
 
     <div id="modalJK" class="JKmodal">
-        <div class="jkm-content">
+        <div class="jkm-content data-modal">
             <h1 class="jk-display-6">Add New Member</h1>
             <?php 
                 if(isset($_POST['addUser'])){
