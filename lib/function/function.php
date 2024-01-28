@@ -76,7 +76,7 @@
                 <p>Last Update : ".$user_view['update_at']."</p>
             </div>
             <div class='footer-card'>
-                <a href=''><button class='jkbtn jkbtn-blue'>Back</button></a>
+                <a href='index.php'><button class='jkbtn jkbtn-blue'>Back</button></a>
             </div>
         </div>
         ";
