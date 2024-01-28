@@ -55,7 +55,7 @@
             </tr>
         </thead>
         <thead>
-            
+            <?php viewUsers() ?>
         </thead>
     </table>
 
