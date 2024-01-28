@@ -83,4 +83,8 @@
 
         echo $view_user;
     }
+
+    function  UpdateView(){
+        $con = Connection();
+    }
 ?>
