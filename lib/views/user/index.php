@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="../../../css/app.scss">
 <div class="site-container">
 
-    <button id="openModalJK" class="jkbtn jkbtn-blue">Open Model</button>
+    <button id="openModalJK" class="jkbtn jkbtn-blue">Add New Member</button>
 
     <div id="modalJK" class="JKmodal data-modal">
         <div class="jkm-content">
