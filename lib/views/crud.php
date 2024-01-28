@@ -41,7 +41,9 @@
             </form>
         </div>
     </div>
-    <br><br><br>
+    <br><br>
+    <br>
+
     <table class="jk-table hover-table">
         <thead>
             <tr>
@@ -54,9 +56,9 @@
                 <th>Action</th>
             </tr>
         </thead>
-        <thead>
+        <tbody>
             <?php viewUsers(); ?>
-        </thead>
+        </tbody>
     </table>
 
 

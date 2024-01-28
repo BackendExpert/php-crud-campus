@@ -1,6 +1,7 @@
 <?php
 
     use FTP\Connection;
+    session_start();
 
     include("config.php");
 
@@ -28,13 +29,27 @@
         $users_nor = mysqli_num_rows($select_result);
 
         if($users_nor == 0){
-            $user_data = "No users";
+            echo "<div class='alertjk alertjk-red'>No Users Found</div>";
         }
         else{
-            return "yes";
+            while($row = mysqli_fetch_assoc($select_result)){
+                echo "
+                    <tr>
+                        <td>".$row['username']."</td>
+                        <td>".$row['email']."</td>
+                        <td>".$row['u_name']."</td>
+                        <td>".$row['mobile']."</td>
+                        <td>".$row['nic']."</td>
+                        <td>".$row['dob']."</td>
+                        <td>
+                            <a href=''><button class='jkbtn jkbtn-green'>Show</button></a>
+                            <a href=''><button class='jkbtn jkbtn-info'>Edit</button></a>
+                            <a href=''><button class='jkbtn jkbtn-red'>Delete</button></a>
+                        </td>
+                    </tr>
+                ";
+            }
         }
-        
 
-        echo $user_data;
     }
 ?>
