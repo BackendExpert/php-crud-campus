@@ -59,9 +59,10 @@
         <tbody>
             <?php viewUsers(); ?>
         </tbody>
-    </table>
-
-    
+    </table> 
 
 
 </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@jehankandy/jkcss@4.1.0/js/jkcss.min.js"></script>
