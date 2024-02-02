@@ -94,10 +94,27 @@
         $select_row = mysqli_fetch_assoc($select_result);
 
         $user_edit_view = "
-            <form method='POST'>
-                <label>Username : </label>
-                <input type='text' name='update-uname' class=''
-            </form>
+            <div style='margin: 20px 0;'>
+                <form method='POST'>
+                    <label>Username : </label>
+                    <input type='text' name='update_uname' class='control-jkforms' value='".$select_row['username']."'><br>
+
+                    <label>Email : </label>
+                    <input type='email' name='update_email' class='control-jkforms' value='".$select_row['email']."'><br>
+
+                    <label>Name : </label>
+                    <input type='text' name='update_name' class='control-jkforms' value='".$select_row['u_name']."'><br>
+
+                    <label>Mobile : </label>
+                    <input type='text' name='update_mobile' class='control-jkforms' value='".$select_row['mobile']."'><br>
+
+                    <label>NIC : </label>
+                    <input type='text' name='update_mobile' class='control-jkforms' value='".$select_row['nic']."'><br>
+
+                    <label>NIC : </label>
+                    <input type='text' name='update_mobile' class='control-jkforms' value='".$select_row['nic']."'><br>
+                </form>
+            </div>
         ";
 
         echo $user_edit_view;
