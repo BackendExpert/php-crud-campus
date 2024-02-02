@@ -95,6 +95,8 @@
 
         $user_edit_view = "
             <div style='margin: 20px 0;'>
+                <a href='index.php'><button class='jkbtn jkbtn-blue' style='margin:20px 0;'>Back</button></a>
+
                 <form method='POST'>
                     <label>Username : </label>
                     <input type='text' name='update_uname' class='control-jkforms' value='".$select_row['username']."'><br>
@@ -111,9 +113,12 @@
                     <label>NIC : </label>
                     <input type='text' name='update_mobile' class='control-jkforms' value='".$select_row['nic']."'><br>
 
-                    <label>NIC : </label>
-                    <input type='text' name='update_mobile' class='control-jkforms' value='".$select_row['nic']."'><br>
+                    <label>Date of Birth : </label>
+                    <input type='date' class='control-jkforms' value='".$select_row['dob']."' disabled><br>
+
+                    <input type='submit' name='update_user_data' class='jkbtn jkbtn-green'>
                 </form>
+                
             </div>
         ";
 
