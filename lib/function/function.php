@@ -44,10 +44,7 @@
                         <td>
                             <a href='show.php?id=".$row['id']."'><button class='jkbtn-sm jkbtn-green'>Show</button></a>
                             <a href='edit.php?id=".$row['id']."'><button class='jkbtn-sm jkbtn-info'>Edit</button></a>
-                            <form method='POST'>
-                                <input type='hidden' value='1'>
-                                <input type='submit' 
-                            </form>
+                            <a href='delete.php?id=".$row['id']."'><button class='jkbtn-sm jkbtn-red'>Delete</button></a>
                         </td>
                     </tr>
                 ";
