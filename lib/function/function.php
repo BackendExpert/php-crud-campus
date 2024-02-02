@@ -177,4 +177,9 @@
 
         echo $detete_view_user;
     }
+
+
+    function user_delete($delete_id){
+        $con = Connection();
+    }
 ?>
