@@ -185,6 +185,10 @@
 
         echo $user_id;
 
-        // $delete_user = "DELETE FROM user_tbl WHERE id"
+        if($delete_id == 1){
+            $delete_user = "DELETE FROM user_tbl WHERE id='$user_id'";
+            $delete_result = mysqli_query($con, $delete_user);
+            header("location:index.php");
+        }
     }
 ?>
