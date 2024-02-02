@@ -168,7 +168,7 @@
             </div>
             <div class='footer-card'>
                 <form method='POST'>
-                    <input type='hidden' value='0' name='delete_id'>
+                    <input type='hidden' value='1' name='delete_id'>
                     <input type='submit' name='delete_user' class='jkbtn jkbtn-red' value='Delete'>
                 </form>
             </div>
@@ -179,7 +179,9 @@
     }
 
 
-    function user_delete($delete_id){
+    function user_delete($delete_id, $user_id){
         $con = Connection();
+
+        $delete_user = "DELETE FROM user_tbl WHERE id"
     }
 ?>
