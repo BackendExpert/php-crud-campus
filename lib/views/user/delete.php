@@ -5,7 +5,7 @@
 
 <?php 
     if(isset($_POST['delete_user'])){
-        $result = user_delete($_POST['delete_id']);
+        $result = user_delete($_POST['delete_id'], $_POST['user_id']);
         echo $result;
     }
 ?>

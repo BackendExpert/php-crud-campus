@@ -169,7 +169,7 @@
             <div class='footer-card'>
                 <form method='POST'>
                     <input type='hidden' value='1' name='delete_id'>
-                    <input type='hidden' value='".$user_view['id']."' name='delete_id'>
+                    <input type='hidden' value='".$user_view['id']."' name='user_id'>
                     <input type='submit' name='delete_user' class='jkbtn jkbtn-red' value='Delete'>
                 </form>
             </div>
