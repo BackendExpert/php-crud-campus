@@ -99,6 +99,7 @@
 
                 <form method='POST'>
                     <label>Username : </label>
+                    <input type='hidden' value='".$id."'>
                     <input type='text' name='update_uname' class='control-jkforms' value='".$select_row['username']."'><br>
 
                     <label>Email : </label>
@@ -123,5 +124,17 @@
         ";
 
         echo $user_edit_view;
+    }
+
+    function update_data($id, $uname, $email, $u_name, $mobile, $nic){
+        $con = Connection();
+
+        $check_data = "SELECT * FROM user_tbl WHERE id='$id'";
+        $check_result = mysqli_query($con, $check_data);
+        $check_nor = mysqli_num_rows($check_result);
+
+        if($check_nor != 0){
+            $update_data = "UPDATE user_tbl SET "   
+        }
     }
 ?>
