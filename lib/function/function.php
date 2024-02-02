@@ -112,7 +112,7 @@
                     <input type='text' name='update_mobile' class='control-jkforms' value='".$select_row['mobile']."'><br>
 
                     <label>NIC : </label>
-                    <input type='text' name='update_mobile' class='control-jkforms' value='".$select_row['nic']."'><br>
+                    <input type='text' name='update_nic' class='control-jkforms' value='".$select_row['nic']."'><br>
 
                     <label>Date of Birth : </label>
                     <input type='date' class='control-jkforms' value='".$select_row['dob']."' disabled><br>
