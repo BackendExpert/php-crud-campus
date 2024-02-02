@@ -168,7 +168,8 @@
             </div>
             <div class='footer-card'>
                 <form method='POST'>
-                    <input =
+                    <input type='hidden' value='0' name='delete_id'>
+                    <input type='submit' name='delete_user' class='jkbtn jkbtn-red' value='Delete'>
                 </form>
             </div>
         </div>
