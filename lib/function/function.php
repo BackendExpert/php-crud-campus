@@ -170,7 +170,9 @@
                 <p>Last Update : ".$user_view['update_at']."</p>
             </div>
             <div class='footer-card'>
-                
+                <form method='POST'>
+                    <input =
+                </form>
             </div>
         </div>
         ";
