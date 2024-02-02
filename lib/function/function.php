@@ -134,7 +134,9 @@
         $check_nor = mysqli_num_rows($check_result);
 
         if($check_nor != 0){
-            $update_data = "UPDATE user_tbl SET "   
+            $update_data = "UPDATE user_tbl SET username='$uname', email='$email', u_name='$u_name', mobile ='$mobile', nic='$nic', update_at = NOW() WHERE id = '$id'";
+            $update_result = mysqli_query($con, $update_data);
+            header("location:index.php");   
         }
     }
 ?>
