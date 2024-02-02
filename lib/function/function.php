@@ -94,7 +94,10 @@
         $select_row = mysqli_fetch_assoc($select_result);
 
         $user_edit_view = "
-        
+            <form method='POST'>
+                <label>Username : </label>
+                <input type='text' name='update-uname' class=''
+            </form>
         ";
 
         echo $user_edit_view;
