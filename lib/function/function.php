@@ -87,6 +87,16 @@
     function  UpdateView(){
         $con = Connection();
 
+        $id = $_GET['id'];
 
+        $select_user = "SELECT * FROM user_tbl WHERE id = '$id'";
+        $select_result = mysqli_query($con, $select_user);
+        $select_row = mysqli_fetch_assoc($select_result);
+
+        $user_edit_view = "
+        
+        ";
+
+        echo $user_edit_view;
     }
 ?>
