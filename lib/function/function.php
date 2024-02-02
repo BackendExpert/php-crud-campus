@@ -147,6 +147,34 @@
     function delete_user(){
         $con = Connection();
 
-        
+        $id = $_GET['id'];
+
+        $select_user = "SELECT * FROM user_tbl WHERE id='$id'";
+        $select_result = mysqli_query($con, $select_user);
+        $user_view = mysqli_fetch_assoc($select_result);
+
+        $detete_view_user = "
+            <a href='index.php'><button class='jkbtn jkbtn-blue'>Back</button></a>
+
+        <div class='jk-card'>
+            <div class='header-card'>
+                User : ".$user_view['username']."
+            </div>
+            <div class='content-card'>
+                <p>Email : ".$user_view['email']."</p>
+                <p>Name : ".$user_view['u_name']."</p>
+                <p>Mobile : ".$user_view['mobile']."</p>
+                <p>NIC : ".$user_view['nic']."</p>
+                <p>Date of Birth : ".$user_view['dob']."</p>
+                <p>Create At : ".$user_view['create_at']."</p>
+                <p>Last Update : ".$user_view['update_at']."</p>
+            </div>
+            <div class='footer-card'>
+                
+            </div>
+        </div>
+        ";
+
+        echo $detete_view_user;
     }
 ?>
