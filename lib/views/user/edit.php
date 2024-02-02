@@ -4,8 +4,8 @@
 <link rel="stylesheet" href="../../../css/app.scss">
 
 <?php 
-    if(){
-        $result = update_data();
+    if(isset($_POST['update_user_data'])){
+        $result = update_data($_POST['']);
         echo $result;
     }
 ?>
