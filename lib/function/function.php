@@ -99,7 +99,7 @@
 
                 <form method='POST'>
                     <label>Username : </label>
-                    <input type='hidden' value='".$id."'>
+                    <input type='hidden' value='".$id."' name='user_id'>
                     <input type='text' name='update_uname' class='control-jkforms' value='".$select_row['username']."'><br>
 
                     <label>Email : </label>
