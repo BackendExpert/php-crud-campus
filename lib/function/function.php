@@ -83,11 +83,10 @@
 
         echo $view_user;
     }
-    function Actions(){
-        
-    }
 
     function  UpdateView(){
         $con = Connection();
+
+
     }
 ?>
