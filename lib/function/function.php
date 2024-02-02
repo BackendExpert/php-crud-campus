@@ -142,4 +142,11 @@
             header("location:index.php");   
         }
     }
+
+
+    function delete_user(){
+        $con = Connection();
+
+        
+    }
 ?>
